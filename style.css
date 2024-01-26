@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(196, 205, 228);
+  font-size: 1rem;
+}
+.temperature_converter
+{
+  width: 100%;
+  background: #fff;
+  min-width: 320px;
+  padding: 20px 25px 45px;
+  border-radius: 7px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: -5px -5px 250px 0 rgba(255, 255, 255, 0.02)inset;
+  backdrop-filter: blur(21px);
+
+}
+.mobile
+{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 40px;
+
+}
+.title
+{
+
+ color: #222;
+ font-size: 1.5 rem;
+ text-align: center;
+ border-bottom: 1px solid black;
+
+}
+.result
+{
+  text-align: left;
+  margin: 20px;
+ margin-bottom: 10px;
+}
+.result-heading
+{
+
+  color: #433f3f;
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+.name
+{
+  border-bottom: 2px solid #ccc;
+}
+.degree-type
+{
+
+  margin-top: 20px;
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+}
+.degree-field
+{
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+}
+label
+{
+  color: black;
+  font-size: .8rem;
+  margin-bottom: 5px;
+}
+input,select
+{
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+input:focus
+{
+  border: 1px solid rgb(196, 205, 228);
+}
+option
+{
+  background: rgb(196, 205, 228);
+  
+  
+}
+#convert-btn
+{
+  border: none;
+  outline: none;
+  border-radius: 85px;
+  background:  linear-gradient(to bottom,#3633f3,#120fb9);
+  color: white;
+  padding: 15px 80px;
+  font-weight: bold;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  transition: all.3s ease-in;
+  cursor:pointer;
+}
+#convert-btn:hover
+{
+  background: linear-gradient(to bottom, #4a47e4, #322fda);
+}
+.fa
+{
+  margin-left: -12px;
+  margin-right: 8px;
+}
